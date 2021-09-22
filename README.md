@@ -3,7 +3,6 @@
   
   <p align="center">
     Udacity Project 2<br>
-  
    A Web App that leverages on the power of Redux to manage state. It is also part of the requirement of the React Udacity Nanodegree Program.
     <br>
       <img src="https://badges.aleen42.com/src/redux.svg" alt="React Redux">
