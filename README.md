@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+<p align="center">
+  <h3 align="center">WOULD YOU RATHER</h3>
+  
+  <p align="center">
+    Udacity Project 2<br>
+   A Web App that leverages on the power of Redux to manage state. It is also part of the requirement of the React Udacity Nanodegree Program.
+    <br>
+      <img src="https://badges.aleen42.com/src/redux.svg" alt="React Redux">
+    <br>
+    </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+### Table of contents
 
-In the project directory, you can run:
+**1 [About the Application](#about-the-app)**<br>
+**2 [General Preview](#general-preview)**<br>
+**3 [Technical](#technical)**<br>
+**4 [Work in Progress](#work-in-progress)**<br>
+**5 [Versions](#versions)**<br>
+**6 [Contributers](#contributers)**<br>
 
-### `yarn start`
+:point_down: :point_down: :point_down: :point_down: :point_down:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<hr>
+## About the Application
 
-### `yarn test`
+A web app that lets a user play the “Would You Rather?” game. The game goes like this: A user is asked a question in the form: “Would you rather [option A] or [option B] ?”. Answering "neither" or "both" is against the rules.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<hr>
+## General Preview
+#### Screenshots of the app
 
-### `yarn build`
+Will be uploaded shortly...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### Add Incident:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### View Incident:
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<hr>
+## Technical
+## Requirement
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Stable Internet
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<hr>
 
-## Learn More
+### TECHNICAL
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### How to Run the Project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**1. Required to run project:**
+       
+         - A shell editor like windows powershell, git bash and any linux shell editor.
+        `
 
-### Code Splitting
+**2. Clone this repository :**
+ 
+         `git clone https://github.com/SammyBloom/would-you-rather.git`
+         
+**3. Navigate to the project directory using a shell editor**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+         `cd would-you-rather`
 
-### Analyzing the Bundle Size
+**4. Install Dependencies**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+         You can use `npm install` or `yarn install` to install dependencies. Ensure you have a good internet connection.
 
-### Making a Progressive Web App
+**5. Launch Development Server**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+         Launch the develoment server using `npm start` or `yarn start`.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Libraries and Dependencies
+create-react-app [Create React App](https://github.com/facebook/create-react-app)
+react-redux
+semantic-ui-css
+semantic-ui-react
+redux
+redux-thunk
+react-redux-loading-bar
 
-### Deployment
+## To Do List
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [x] Fix loading of images. 
+- [x] Make the editText view to function properly: Ensure it throws an error if a blank question is submitted.
+- [x] Update readme with screenshots for both mobile and desktop.
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<hr>
+
+
+## Versions 
+* Version 1.0  DATE 22/09/2021
+
+
+## Contributors
+For personal feedback or questions feel free to contact me via the mail address, which is mentioned on my [Github profile](link (https://github.com/SammyBloom). If you have found any bugs or want to post a feature request please use the [bugtracker](https://github.com/SammyBloom/would-you-rather/issues) to report them.
+
+
+#### Developer
+* e-mail: nwachiemi@gmail.com
+* Twitter: [@SCNBloom_](https://twitter.com/SCNBloom "SCNBloom")
+
