@@ -1,5 +1,5 @@
-export const SET_AUTHED_USER = 'SET_AUTHED_USER'
-export const LOG_OUT='LOG_OUT'
+import { SET_AUTHED_USER } from "./actionTypes"
+import { LOG_OUT } from "./actionTypes"
 
 export function setAuthedUser (id) {
   return {

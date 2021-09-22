@@ -1,6 +1,6 @@
-export const RECEIVE_USERS = 'RECEIVE_USERS'
-export const ADD_ANSWER = 'ADD_ANSWER'
-export const ADD_QUESTION = 'ADD_QUESTION'
+import { ADD_ANSWER } from "./actionTypes";
+import { RECEIVE_USERS } from "./actionTypes";
+import { ADD_QUESTION } from "./actionTypes";
 
 export function receiveUsers(users) {
   return {

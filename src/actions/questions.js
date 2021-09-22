@@ -1,9 +1,9 @@
 import { _saveQuestion, _saveQuestionAnswer } from '../utils/_DATA'
 import { showLoading, hideLoading } from 'react-redux-loading-bar'
+import { ADD_QUESTION } from './actionTypes'
+import { ADD_ANSWER } from './actionTypes'
+import { RECEIVE_QUESTIONS } from './actionTypes'
 
-export const RECEIVE_QUESTIONS = 'RECEIVE_QUESTIONS'
-export const ADD_QUESTION = 'ADD_QUESTION'
-export const ADD_ANSWER = 'ADD_ANSWER'
 
 export function receiveQuestions(questions) {
     return {
