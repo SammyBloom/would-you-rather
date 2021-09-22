@@ -3,7 +3,7 @@ import { Card, Image, Divider, Dropdown, Button } from 'semantic-ui-react'
 import { setAuthedUser } from '../actions/authedUser';
 import { connect } from 'react-redux'
 import { Redirect } from 'react-router-dom'
-var logo = require('../assets/icons/React-Redux.jpeg')
+var logo = require('../assets/icons/React-Redux.jpg')
 
 class Login extends Component {
     state = {

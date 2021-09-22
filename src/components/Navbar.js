@@ -3,7 +3,7 @@ import { Menu, Image,Dropdown,Icon } from 'semantic-ui-react'
 import { NavLink,withRouter} from 'react-router-dom'
 import { connect } from 'react-redux'
 import {logOut} from '../actions/authedUser'
-var logo = require('../assets/icons/React-Redux.jpeg')
+var logo = require('../assets/icons/React-Redux.jpg')
 
 class Navbar extends Component {
 

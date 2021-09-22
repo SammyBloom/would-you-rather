@@ -2,7 +2,7 @@ export let users = {
   sarahedo: {
     id: 'sarahedo',
     name: 'Sarah Edo',
-    avatarURL: require('../assets/images/sarahedo.jpeg'),
+    avatarURL: require('../assets/images/sarahedo.jpg'),
     answers: {
       "8xf0y6ziyjabvozdd253nd": 'optionOne',
       "6ni6ok3ym7mf1p33lnez": 'optionTwo',
@@ -14,7 +14,7 @@ export let users = {
   tylermcginnis: {
     id: 'tylermcginnis',
     name: 'Tyler McGinnis',
-    avatarURL: require('../assets/images/tylermcginnis.jpeg'),
+    avatarURL: require('../assets/images/tylermcginnis.jpg'),
     answers: {
       "vthrdm985a262al8qx3do": 'optionOne',
       "xj352vofupe1dqz9emx13r": 'optionTwo',
@@ -24,7 +24,7 @@ export let users = {
   johndoe: {
     id: 'johndoe',
     name: 'John Doe',
-    avatarURL: require('../assets/images/johndoe.jpeg'),
+    avatarURL: require('../assets/images/johndoe.jpg'),
     answers: {
       "xj352vofupe1dqz9emx13r": 'optionOne',
       "vthrdm985a262al8qx3do": 'optionTwo',
