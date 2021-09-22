@@ -3,9 +3,12 @@
   
   <p align="center">
     Udacity Project 2<br>
+  
    A Web App that leverages on the power of Redux to manage state. It is also part of the requirement of the React Udacity Nanodegree Program.
     <br>
+  
       <img src="https://badges.aleen42.com/src/redux.svg" alt="React Redux">
+  
     <br>
     </p>
 
@@ -43,59 +46,63 @@ Will be uploaded shortly...
 
 <hr>
 ## Technical
-## Permissions
+## Requirement
 
-1. Internet
-2. Location
+1. Stable Internet
 
 <hr>
 
 ### TECHNICAL
 
-#### How to use
+#### How to Run the Project
 
 **1. Required to run project:**
-       ` - To run this project use Android studio 3.* and later. It will be less messy.
-         - Gradle version used: gradle 7.0. You can use multiple gradle versions by having them stored offline. [You can read this to set it up.](www.sth)
+       
+         - A shell editor like windows powershell, git bash and any linux shell editor.
         `
 
 **2. Clone this repository :**
  
-         `git clone https://github.com/SammyBloom/IncidentTracker`
+         `git clone https://github.com/SammyBloom/would-you-rather`
          
-**3. open Project in Android Studio**
+**3. Navigate to the project directory using a shell editor**
 
-**4. Build Project**
+         `cd would-you-rather`
 
-**5. Incase of an error when building project, update your gradle version, Build Tools download**
+**4. Install Dependencies**
+
+         You can use `npm install` or `yarn install` to install dependencies. Ensure you have a good internet connection.
+
+**5. Launch Development Server**
+
+         Launch the develoment server using `npm start` or `yarn start`.
 
 
-#### Dependencies
-Firebase
-Firebase Firestore
-ViewModel
-LiveData
-Google Maps
-GeoLocation
+#### Libraries and Dependencies
+create-react-app
+react-redux
+semantic-ui-css
+semantic-ui-react
+redux
+redux-thunk
+react-redux-loading-bar
 
 ## To Do List
 
-- [x] Real-Time Retriving of data 
-- [x] Dismiss DialogFragment after uploading data to Firestore
-- [x] Adhere to best practices
-- [x] Bottom sheet showing details when a marker is selected.
-- [x] Show Incidents in a RecyclerView
+- [x] Fix loading of images. 
+- [x] Make the editText view to function properly: Ensure it throws an error if a blank question is submitted.
+- [x] Update readme with screenshots for both mobile and desktop.
 
 
 <hr>
 
 
 ## Versions 
-* Version 1.0  DATE 12/08/2021
+* Version 1.0  DATE 22/09/2021
 
 
 ## Contributors
-For personal feedback or questions feel free to contact me via the mail address, which is mentioned on my [Github profile](link (https://github.com/SammyBloom). If you have found any bugs or want to post a feature request please use the [bugtracker](https://github.com/SammyBloom/IncidentTracker/issues) to report them.
+For personal feedback or questions feel free to contact me via the mail address, which is mentioned on my [Github profile](link (https://github.com/SammyBloom). If you have found any bugs or want to post a feature request please use the [bugtracker](https://github.com/SammyBloom/would-you-rather/issues) to report them.
 
 
 #### Developer
