@@ -60,7 +60,7 @@ Will be uploaded shortly...
 
 **2. Clone this repository :**
  
-         `git clone https://github.com/SammyBloom/would-you-rather`
+         `git clone https://github.com/SammyBloom/would-you-rather.git`
          
 **3. Navigate to the project directory using a shell editor**
 
